@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:text="@string/shareBtnHint"
+        android:id="@+id/item_text"/>
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:focusable="false"
+        android:paddingTop="10dp"
+        android:id="@+id/item_map_btn"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/maps"/>
+</LinearLayout>

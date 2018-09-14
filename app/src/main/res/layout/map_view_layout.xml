@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_time"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <terry.com.ncstbuildingdatasetgatherer.mapContents.MapView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map_view"
+        android:background="#000"
+        />
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/return_btn"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ic_map_return" />
+</RelativeLayout>
+
+

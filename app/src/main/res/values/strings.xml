@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NCST数据收集器</string>
+    <string name="studentID_title">学号</string>
+    <string name="studentID_hint">请输入学号</string>
+    <string name="InformationGatherHeader">填写基本信息</string>
+    <string name="ConfirmBtn">确定</string>
+    <string name="studentID_error">学号输入有误</string>
+    <string name="checkBtnHint">检查</string>
+    <string name="shareBtnHint">分享</string>
+    <string name="switchViewHint">区域选择</string>
+</resources>
